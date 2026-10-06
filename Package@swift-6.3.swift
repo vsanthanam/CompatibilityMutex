@@ -10,11 +10,11 @@ let swiftSettings: [SwiftSetting] = [
 let package = Package(
     name: "CompatibilityMutex",
     platforms: [
-        .macOS(.v13),
-        .macCatalyst(.v16),
-        .iOS(.v16),
-        .watchOS(.v9),
-        .tvOS(.v16),
+        .macOS(.v12),
+        .macCatalyst(.v15),
+        .iOS(.v15),
+        .watchOS(.v8),
+        .tvOS(.v15),
         .visionOS(.v1)
     ],
     products: [
